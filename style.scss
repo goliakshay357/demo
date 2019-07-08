@@ -1,0 +1,26 @@
+body{
+    background-color: red;
+    display: block;
+
+    height: 100vh;
+    margin: 0px;
+}
+
+.top-bar{
+    display: flex;
+    flex: row;
+    background-color: blue;
+    border-bottom: 2px solid black;
+    position: absolute;
+    width: 100%;
+    
+}
+
+.top-bar * {
+    margin: 5px 10px;
+}
+
+#draw {
+ display: block;   //for proper sizing and stuff!
+ background-color: wheat;
+}
