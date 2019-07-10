@@ -1,29 +1,38 @@
+* {
+  font-family: 'Roboto', sans-serif;
+}
+
 body {
-  background-color: red;
-  display: block;
-  height: 100vh;
   margin: 0px;
+  padding: 0px;
+  background-color: #ffbc57;
 }
 
-.top-bar {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-flex: row;
-      -ms-flex: row;
-          flex: row;
-  background-color: blue;
-  border-bottom: 2px solid black;
+body .div1 {
+  position: fixed;
+  background-color: aqua;
+  top: 45%;
+  left: 50%;
+  margin-top: -100px;
+  margin-left: -200px;
+}
+
+body .div1 h1 {
   position: absolute;
-  width: 100%;
+  font-size: 20px;
+  width: 300px;
+  top: 75px;
 }
 
-.top-bar * {
-  margin: 5px 10px;
+body .div1 h1 span {
+  font-size: 15px;
+  font-weight: 100;
+  left: 10px;
 }
 
-#draw {
-  display: block;
-  background-color: wheat;
+body .div1 img {
+  position: absolute;
+  width: 200px;
+  left: 180px;
 }
 /*# sourceMappingURL=style.css.map */
