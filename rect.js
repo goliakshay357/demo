@@ -3,7 +3,7 @@ var ctx
 var c,d;
 var strokes = []
 var currentStroke = null;
-
+// just a demo comment
 var draw = true;
 
 var brush = {
